@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 
-namespace JtlDemo.Modules.Windows;
+namespace JtlDemo.Modules;
 
 /// Lives in the Windows-targeted assembly and is composed alongside the genuinely
 /// Windows modules, but its code calls no Windows API at all. Deciding what to do

@@ -1,5 +1,5 @@
 using JtlDemo.Abstractions;
-using JtlDemo.Modules.Windows;
+using JtlDemo.Modules;
 
 namespace JtlDemo.Rest.Server;
 
@@ -13,7 +13,5 @@ public static class ApiModuleCatalog
         new ItemsModule(),
         new CustomersModule(),
         new StatsModule(),
-        new DocumentExportModule(),
-        new PrinterModule(),
     ];
 }

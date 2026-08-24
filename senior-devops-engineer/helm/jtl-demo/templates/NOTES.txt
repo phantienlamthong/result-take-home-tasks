@@ -1,0 +1,12 @@
+JtlDemo ran by Max. Deploy successfully.
+
+Service:
+  {{ include "jtl-demo.fullname" . }}
+
+Health endpoint:
+  /healthz
+
+API endpoints:
+  /api/items
+  /api/customers
+  /api/stats

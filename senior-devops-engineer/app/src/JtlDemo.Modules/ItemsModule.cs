@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 
-namespace JtlDemo.Rest.Server;
+namespace JtlDemo.Modules;
 
 public sealed class ItemsModule : IApiModule
 {

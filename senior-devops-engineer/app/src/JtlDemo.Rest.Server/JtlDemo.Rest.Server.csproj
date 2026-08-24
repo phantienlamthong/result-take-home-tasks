@@ -6,7 +6,7 @@
     modules. Nothing else here needs Windows.
   -->
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="../JtlDemo.Abstractions/JtlDemo.Abstractions.csproj" />
-    <ProjectReference Include="../JtlDemo.Modules.Windows/JtlDemo.Modules.Windows.csproj" />
+    <ProjectReference Include="../JtlDemo.Modules/JtlDemo.Modules.csproj" />
   </ItemGroup>
 
 </Project>

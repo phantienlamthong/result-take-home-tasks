@@ -1,4 +1,4 @@
-using JtlDemo.Modules.Windows;
+using JtlDemo.Modules;
 using JtlDemo.Rest.Server;
 using Xunit;
 
@@ -14,8 +14,9 @@ public class CompositionTests
         Assert.Contains("Items", names);
         Assert.Contains("Customers", names);
         Assert.Contains("Stats", names);
-        Assert.Contains("Documents", names);
-        Assert.Contains("Printers", names);
+
+        Assert.DoesNotContain("Documents", names);
+        Assert.DoesNotContain("Printers", names);
     }
 
     [Fact]
